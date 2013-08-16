@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import cn.eoe.app.ui.base.BaseActivity;
 
-import com.umeng.update.UmengUpdateAgent;
+//import com.umeng.update.UmengUpdateAgent;
 
 public class SplashActivity extends BaseActivity {
 
@@ -21,8 +21,8 @@ public class SplashActivity extends BaseActivity {
 		//this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
 		//		WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		
-		UmengUpdateAgent.setUpdateOnlyWifi(false);
-		UmengUpdateAgent.update(this);
+//		UmengUpdateAgent.setUpdateOnlyWifi(false);
+//		UmengUpdateAgent.update(this);
 		
 		//getWindow().setBackgroundDrawable(
 		//		getResources().getDrawable(R.drawable.splash_load));
